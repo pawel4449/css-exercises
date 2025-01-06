@@ -12,7 +12,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
+
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
+
+ }
 
 .profile-image {
   background: rebeccapurple;
@@ -41,8 +48,34 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+   
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-flow: row  wrap;
+  padding: 10px;
+  margin: 10px;
+
+
+ gap: 15px;
+  
+}
+ 
+
+.container-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+   margin-left: 10px;
+}
+
+.container-right {
+  display: flex;
+  flex: row-reverse;
+  gap: 3%;
+  justify-content: space-around;
+  margin-right: 0.5%;
 }
