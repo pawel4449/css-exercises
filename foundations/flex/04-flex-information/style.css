@@ -4,12 +4,18 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
+  height:100px;
+  margin-left: 30%;
+  ;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ padding-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +30,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ 
+
+.opis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+  height: auto;
+
+  
+}
+
+.opis .text {
+  display: flex;
+  flex-direction: column;
+   padding: 10px;
+  margin: 10px 60px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+ 
